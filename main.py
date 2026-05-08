@@ -17,3 +17,5 @@ df = pd.read_csv(csv_path, encoding='latin-1')
 
 print(df.head())
 print(df.info())
+teste
+
