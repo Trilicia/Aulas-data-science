@@ -34,6 +34,7 @@ df.columns = (
 )
 
 print(df.columns)
+
 df['postal_code'] = df['postal_code'].astype(str)
 
 print(df.dtypes)
