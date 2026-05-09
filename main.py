@@ -18,6 +18,9 @@ df = pd.read_csv(csv_path, encoding='latin-1')
 # Exibir as primeiras linhas do DataFrame e informações sobre os dados
 print(df.head())
 print(df.info())
+print(df.describe())
+
+
 # Não tem valores nulos
 print(df.isnull().sum())
 # Não tem valores duplicados
@@ -143,3 +146,5 @@ plt.title('Desconto vs Lucro')
 plt.xlabel('Discount')
 plt.ylabel('Profit')
 plt.show()
+
+
